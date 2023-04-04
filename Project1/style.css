@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10%;
+    background-color: #1f2937;
+  }
+
+.header_logo {
+    font-size: 24px;
+    color: white;
+  }
+
+.header_links {
+    display: flex;
+    color: white;
+  }
+
+.link {
+  margin-left: 20px;
+  font-size: 18px;
+  }
+
+.website-info {
+  display: flex;
+  padding: 10% 10%;
+  flex-wrap: wrap;
+  background-color: #1f2937;
+  color: white;
+}
+
+.website-info-left {
+  flex: 1;
+  padding-right: 5%;
+}
+
+.website-info-right {
+  flex: 1;
+}
+
+.info-header {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.info-paragraph {
+  margin-bottom: 20px;
+}
+
+.info-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.website-gallery {
+
+}
+
+.gallery-header {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 20%;
+}
+
+.gallery-item {
+  text-align: center;
+  width: calc(25% - 20px);
+  margin-bottom: 20px;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.gallery-item p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.quote-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #e5e7eb;
+  justify-content: flex-end;
+}
+
+.quote-section p {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 8%;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.quote-section h4 {
+  margin: 0 25%;
+  margin-bottom: 8%;
+}
+
+.call-to-action {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cta-item {
+  border-radius: 10px;
+  background-color: #007bff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.cta-left {
+  order: 1;
+  margin-left: 20%;
+}
+
+.cta-right {
+  order: 1;
+  margin-right: 20%;
+}
