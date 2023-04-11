@@ -66,10 +66,6 @@ body {
   max-width: 100%;
 }
 
-.website-gallery {
-
-}
-
 .gallery-header {
   display: flex;
   justify-content: center;
@@ -117,6 +113,7 @@ body {
   margin-top: 8%;
   font-size: 24px;
   font-style: italic;
+  color: black;
 }
 
 .quote-section h4 {
@@ -125,26 +122,55 @@ body {
 }
 
 .call-to-action {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.cta-item {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
   border-radius: 10px;
   background-color: #007bff;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .cta-left {
-  order: 1;
-  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
 }
 
+.cta-left h4,p {
+  margin: 0;
+  color: white;
+}
+
+
 .cta-right {
-  order: 1;
-  margin-right: 20%;
+  margin-left: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  border-color: white;
+}
+
+.page-footer {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: navy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
